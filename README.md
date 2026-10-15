@@ -14,12 +14,17 @@ at the very top of your
 
 python program:
 
-
 ```python
 from cck.py import *
 ```
 
-tools:
+clone this github repo, then take **cck.py**
+
+and add it to the same folder as the python file you want to use it in.
+
+the rest of the files you dont need.
+
+**tools:**
 
 1. clear() - clears all text in the terminal.
 
@@ -28,10 +33,3 @@ tools:
 3. menu_one("menu_text") - puts a basic menu in the terminal with customizable text.
 
 4. menu_two("menu_text", "menu_text_two") - puts a basic menu in the terminal with two lines of customizable text.
-
-# note
-by importing this toolkit, you are
-
-also **importing** the python **library's**
-
-**time, os, and sys.**
