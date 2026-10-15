@@ -1,5 +1,6 @@
 # Cats_Commonkit
 **(C) 2026 classicbecat**
+
 **Licensed under AGPL 3.0**
 
 this is a very simple toolkit
