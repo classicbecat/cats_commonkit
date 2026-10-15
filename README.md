@@ -1,32 +1,36 @@
-Cats_Commonkit
+# Cats_Commonkit
+**(C) 2026 classicbecat**
+**Licensed under AGPL 3.0**
 
-Version: 1.0 Alpha
-Author: classicbecat
-License: GNU AGPL v3.0
+this is a very simple toolkit
 
-About
+for python CLI programs. there are better options 
 
-Cats_Commonkit is a simple Python utility library containing basic functions for clearing the terminal, adding delays, and displaying menu text.
+out there, this is just a simple hobby project.
 
-Functions
-clear() — Clears the terminal screen.
-wait(wt) — Pauses the program for a specified number of seconds.
-menu_one(menu_text) — Displays a simple menu with a title.
-menu_two(menu_text, menu_text_sub) — Displays a menu with a title and subtitle.
-Usage
+# how to use
+at the very top of your 
 
-Import the file into your Python project and call its functions.
+python program:
 
-import Cats_Commonkit
 
-Cats_Commonkit.clear()
-Cats_Commonkit.wait(1)
-Cats_Commonkit.menu_one("Main Menu")
-Cats_Commonkit.menu_two("Main Menu", "Settings")
+```python
+from cck.py import *
+```
 
-Requirements
-Python 3
-No external dependencies
-License
+tools:
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+1. clear() - clears all text in the terminal.
+
+2. wait(wait_time) - waits however many seconds you put.
+
+3. menu_one("menu_text") - puts a basic menu in the terminal with customizable text.
+
+4. menu_two("menu_text", "menu_text_two") - puts a basic menu in the terminal with two lines of customizable text.
+
+# note
+by importing this toolkit, you are
+
+also **importing** the python **library's**
+
+**time, os, and sys.**
