@@ -20,9 +20,9 @@ Python program:
 from cck.py import *
 ```
 
-Clone this GitHub repo, then take **cck.py**
+Then clone this GitHub repo, and take **cck.py**.
 
-and add it to the same folder as the Python file you want to use it in.
+Next add it to the same folder as the Python file you want to use it in.
 
 The rest of the files you don't need.
 
